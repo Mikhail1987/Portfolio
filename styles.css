@@ -66,6 +66,22 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
+.h_exp {
+  background: url('images/exp.jpg');
+  background-size: cover;
+}
+
+.h_project {
+ background: url('images/projects.jpg');
+ background-size: cover;
+}
+
+.h_contact {
+ background: url('images/contact.jpg');
+ background-size: cover;
+}
+
 header {
   line-height: 1.5;
 }
@@ -78,6 +94,7 @@ header .profile-image {
   box-shadow: 5px 5px 3px rgba(0,0,0, 3);
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.13);
   box-shadow: 10px 10px 5px rgba(0,0,0, 3);
@@ -94,6 +111,14 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
+
+.indication {
+  background-color: #222;
+  color: white;
+  margin-top: 400px;
+}
+
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -124,6 +149,84 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+/*Contact*/
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display:block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+  background-image: url('images/phone.png')
+}
+
+.contact-info li.mail a{
+  background-image: url('images/mail.png')
+}
+
+.contact-info li.facebook a{
+  background-image: url('images/facebook.png')
+}
+
+.contact-info li.twitter a{
+  background-image: url('images/twitter.png')
+}
+
+.contact-info a:hover {
+  color: black;
+}
+
+/*Gallery*/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7
+}
+
+#wrapper {
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper img {
+  max-width: 100%;
+  
 }
 
 footer {
